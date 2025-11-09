@@ -55,16 +55,26 @@ article{border:1px solid rgba(15,23,36,0.03)}
 .video-placeholder .vp-note{font-size:13px;color:var(--muted)}
 
 /* Centered page heading with navy background */
-.page-heading-wrap{display:flex;justify-content:center;margin:6px 0 18px}
+.page-heading-wrap{
+  display:flex;
+  justify-content:center;
+  margin:6px 0 18px;
+  /* caja exterior: fondo claro, radio y sombra sutil */
+  background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(247,250,255,0.98));
+  padding:8px; /* espacio para la 'otra caja' alrededor del pill */
+  border-radius:14px;
+  box-shadow:0 6px 18px rgba(6,34,74,0.04);
+}
 .page-heading{
   display:inline-block;
   background:var(--navy);
   color:#ffffff;
-  padding:12px 22px;
+  padding:10px 20px;
   border-radius:10px;
-  font-size:20px;
+  font-size:18px; /* un poco más pequeño para h3 */
   box-shadow:0 8px 28px rgba(10,46,92,0.12);
   text-align:center;
+  line-height:1;
 }
 @media(max-width:520px){
   .page-heading{padding:10px 14px;font-size:16px}
