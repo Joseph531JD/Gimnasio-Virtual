@@ -20,6 +20,24 @@ article{background:var(--card);padding:18px;border-radius:10px;margin:14px 0;box
 .template{background:#0f172a;color:#e6eef8;padding:12px;border-radius:6px;overflow:auto}
 .site-footer{margin-top:28px;padding:16px;text-align:center;color:var(--muted)}
 
+/* Top navigation buttons that jump to each exercise */
+.top-nav{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:18px 0 6px}
+.nav-btn{background:transparent;border:1px solid rgba(31,111,235,0.12);color:var(--accent);padding:8px 14px;border-radius:999px;text-decoration:none;font-weight:600;box-shadow:0 4px 12px rgba(16,24,40,0.03);transition:all .18s ease}
+.nav-btn:hover{background:rgba(59,130,246,0.06);transform:translateY(-2px);border-color:var(--accent-2)}
+
+/* Article header and layout improvements */
+article h3{margin:0 0 8px;font-size:18px;color:var(--text)}
+article h4{margin:6px 0;font-size:15px;color:var(--accent-2)}
+article ul, article ol{margin-left:20px;color:var(--muted)}
+
+/* Card-like appearance for the sections to avoid 'copied text' look */
+article{border:1px solid rgba(15,23,36,0.03)}
+
+/* Video placeholder modernized */
+.video-placeholder{border-style:dashed;border-color:rgba(31,111,235,0.18);background:transparent;padding:18px;border-radius:12px;margin-top:18px;text-align:center;min-height:72px;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(16,24,40,0.02)}
+.video-placeholder .vp-title{font-weight:700;color:var(--accent);font-size:16px;margin:0}
+
+
 /* Video placeholder box */
 .video-placeholder{border:2px dashed rgba(31,111,235,0.25);background:linear-gradient(180deg,rgba(59,130,246,0.03),rgba(59,130,246,0.01));padding:12px;border-radius:8px;margin-top:12px;text-align:center}
 .video-placeholder .vp-title{font-weight:600;color:var(--accent)}
