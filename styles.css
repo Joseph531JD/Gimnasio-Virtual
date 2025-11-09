@@ -6,6 +6,8 @@
   --muted:#6b7280;
   --accent:#0b3d91; /* deep royal blue */
   --accent-2:#06224a; /* navy deep blue */
+  --navy: #06224a; /* alias for legacy rules */
+  --navy-700: #041635;
   --text:#0f1724;
 }
 body{font-family:'Inter',Segoe UI, Roboto, Arial, sans-serif;background:var(--bg);color:var(--text);margin:0}
