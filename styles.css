@@ -4,29 +4,29 @@
   --bg:#f3f7fb;
   --card:#ffffff;
   --muted:#6b7280;
-  --accent:#1f6feb;
-  --accent-2:#3b82f6;
+  --accent:#ff6b35; /* energetic orange */
+  --accent-2:#0ea5a4; /* teal */
   --text:#0f1724;
 }
 body{font-family:'Inter',Segoe UI, Roboto, Arial, sans-serif;background:var(--bg);color:var(--text);margin:0}
 .container{max-width:1000px;margin:28px auto;padding:28px}
-.site-header{display:flex;gap:18px;align-items:center;padding:22px;background:linear-gradient(90deg,rgba(59,130,246,0.06),#ffffff);border-bottom:1px solid rgba(15,23,36,0.04)}
-.logo{width:72px;height:72px;border-radius:12px;box-shadow:0 6px 18px rgba(59,130,246,0.08)}
-.slogan{margin:4px 0 0;color:var(--muted);font-weight:500}
-h1{margin:0;font-size:22px;color:var(--accent)}
+.site-header{display:flex;gap:18px;align-items:center;padding:20px;background:linear-gradient(90deg,var(--accent),var(--accent-2));border-bottom:3px solid rgba(0,0,0,0.08);color:#fff}
+.logo{width:72px;height:72px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.25);background:#fff}
+.slogan{margin:4px 0 0;color:rgba(255,255,255,0.9);font-weight:600}
+h1{margin:0;font-size:22px;color:#fff;letter-spacing:0.3px}
 h2{color:var(--accent);margin-top:18px}
 article{background:var(--card);padding:18px;border-radius:10px;margin:14px 0;box-shadow:0 6px 18px rgba(16,24,40,0.04)}
 .note{font-style:italic;color:var(--muted)}
 .template{background:#0f172a;color:#e6eef8;padding:12px;border-radius:6px;overflow:auto}
-.site-footer{margin-top:28px;padding:16px;text-align:center;color:var(--muted)}
+.site-footer{margin-top:28px;padding:24px;text-align:center;color:var(--muted);font-size:14px}
 
 /* Top navigation buttons that jump to each exercise */
 .top-nav{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:18px 0 6px}
-.nav-btn{background:transparent;border:1px solid rgba(31,111,235,0.12);color:var(--accent);padding:8px 14px;border-radius:999px;text-decoration:none;font-weight:600;box-shadow:0 4px 12px rgba(16,24,40,0.03);transition:all .18s ease}
-.nav-btn:hover{background:rgba(59,130,246,0.06);transform:translateY(-2px);border-color:var(--accent-2)}
+.nav-btn{background:transparent;border:1px solid rgba(255,255,255,0.16);color:rgba(255,255,255,0.95);padding:8px 14px;border-radius:999px;text-decoration:none;font-weight:700;box-shadow:0 6px 18px rgba(16,24,40,0.06);transition:all .18s ease}
+.nav-btn:hover{background:rgba(255,255,255,0.08);transform:translateY(-3px);border-color:rgba(255,255,255,0.28)}
 
 /* Article header and layout improvements */
-article h3{margin:0 0 8px;font-size:18px;color:var(--text)}
+article h3{margin:0 0 8px;font-size:20px;color:var(--text)}
 article h4{margin:6px 0;font-size:15px;color:var(--accent-2)}
 article ul, article ol{margin-left:20px;color:var(--muted)}
 
@@ -34,8 +34,19 @@ article ul, article ol{margin-left:20px;color:var(--muted)}
 article{border:1px solid rgba(15,23,36,0.03)}
 
 /* Video placeholder modernized */
-.video-placeholder{border-style:dashed;border-color:rgba(31,111,235,0.18);background:transparent;padding:18px;border-radius:12px;margin-top:18px;text-align:center;min-height:72px;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(16,24,40,0.02)}
+.video-placeholder{border-style:dashed;border-color:rgba(0,0,0,0.06);background:linear-gradient(180deg,rgba(0,0,0,0.02),rgba(0,0,0,0.01));padding:18px;border-radius:12px;margin-top:18px;text-align:center;min-height:92px;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 30px rgba(16,24,40,0.06)}
 .video-placeholder .vp-title{font-weight:700;color:var(--accent);font-size:16px;margin:0}
+
+/* Play icon */
+.video-placeholder:before{content:"▶";font-size:20px;color:rgba(0,0,0,0.12);display:inline-block;margin-right:10px}
+
+/* Hero section */
+.hero{background:linear-gradient(135deg,rgba(255,107,53,0.12),rgba(14,165,164,0.06));border-radius:12px;padding:28px;margin:18px 0 8px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.hero .hero-title{font-size:28px;color:var(--text);font-weight:800;margin:0}
+.hero .hero-sub{margin-top:8px;color:var(--muted);font-size:15px}
+.hero .hero-ctas{margin-top:12px;display:flex;gap:10px}
+.btn-primary{background:var(--accent);color:#fff;padding:10px 16px;border-radius:8px;text-decoration:none;font-weight:700}
+.btn-outline{background:transparent;border:2px solid rgba(15,23,36,0.06);color:var(--text);padding:10px 16px;border-radius:8px;text-decoration:none;font-weight:700}
 
 
 /* Video placeholder box */
