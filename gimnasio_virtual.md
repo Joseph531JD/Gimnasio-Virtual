@@ -249,10 +249,6 @@
    <p><strong>Video</strong></p>
    </div>
 
-## Recomendaciones:
-
-* Se deben referenciar las fuentes de donde se obtenga la información utilizada en la presentación.
-
 ## Referencias:
 
 1. Biomecánica (general) — https://es.wikipedia.org/wiki/Biomec%C3%A1nica
