@@ -5,7 +5,7 @@
   --card:#ffffff;
   --muted:#6b7280;
   --accent:#ff6b35; /* energetic orange */
-  --accent-2:#0ea5a4; /* teal */
+  --accent-2:#0b6cff; /* strong blue to pair with orange */
   --text:#0f1724;
 }
 body{font-family:'Inter',Segoe UI, Roboto, Arial, sans-serif;background:var(--bg);color:var(--text);margin:0}
@@ -22,8 +22,8 @@ article{background:var(--card);padding:18px;border-radius:10px;margin:14px 0;box
 
 /* Top navigation buttons that jump to each exercise */
 .top-nav{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:18px 0 6px}
-.nav-btn{background:transparent;border:1px solid rgba(255,255,255,0.16);color:rgba(255,255,255,0.95);padding:8px 14px;border-radius:999px;text-decoration:none;font-weight:700;box-shadow:0 6px 18px rgba(16,24,40,0.06);transition:all .18s ease}
-.nav-btn:hover{background:rgba(255,255,255,0.08);transform:translateY(-3px);border-color:rgba(255,255,255,0.28)}
+.nav-btn{background:transparent;border:1px solid rgba(255,255,255,0.14);color:rgba(255,255,255,0.95);padding:8px 14px;border-radius:999px;text-decoration:none;font-weight:700;box-shadow:0 6px 18px rgba(16,24,40,0.06);transition:all .18s ease}
+.nav-btn:hover{background:rgba(11,108,255,0.08);transform:translateY(-3px);border-color:rgba(11,108,255,0.28)}
 
 /* Article header and layout improvements */
 article h3{margin:0 0 8px;font-size:20px;color:var(--text)}
@@ -38,10 +38,10 @@ article{border:1px solid rgba(15,23,36,0.03)}
 .video-placeholder .vp-title{font-weight:700;color:var(--accent);font-size:16px;margin:0}
 
 /* Play icon */
-.video-placeholder:before{content:"▶";font-size:20px;color:rgba(0,0,0,0.12);display:inline-block;margin-right:10px}
+.video-placeholder:before{content:"▶";font-size:20px;color:rgba(11,108,255,0.14);display:inline-block;margin-right:10px}
 
 /* Hero section */
-.hero{background:linear-gradient(135deg,rgba(255,107,53,0.12),rgba(14,165,164,0.06));border-radius:12px;padding:28px;margin:18px 0 8px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.hero{background:linear-gradient(135deg,rgba(255,107,53,0.12),rgba(11,108,255,0.06));border-radius:12px;padding:28px;margin:18px 0 8px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
 .hero .hero-title{font-size:28px;color:var(--text);font-weight:800;margin:0}
 .hero .hero-sub{margin-top:8px;color:var(--muted);font-size:15px}
 .hero .hero-ctas{margin-top:12px;display:flex;gap:10px}
