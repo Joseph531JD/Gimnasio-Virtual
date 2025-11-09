@@ -1,6 +1,6 @@
-# FitTech Solutions
-![Logo del gimnasio]
-*"Innovación en movimiento, excelencia en cada gesto"*
+# DannaFit Studio
+![Logo del gimnasio](logo.svg)
+*"Técnica, Ciencia y Movimiento"*
 
 ## Análisis Biomecánico de Gestos Técnicos
 
@@ -28,6 +28,11 @@
    - Flexión de rodillas al aterrizar
    - Recuperación del equilibrio
 
+<div style="border:2px dashed #3b82f6;padding:10px;border-radius:6px;margin-top:8px;">
+<p><strong>Sube tu vídeo:</strong> Archivo sugerido: <code>01_saque_salto.mp4</code></p>
+<p>Enlace o ruta: ________________________</p>
+</div>
+
 ### 2. Lanzamiento del frisbee en ultimate
 
 #### Fases del movimiento:
@@ -52,6 +57,11 @@
    - Rotación completa del cuerpo
    - Recuperación de la posición base
 
+<div style="border:2px dashed #3b82f6;padding:10px;border-radius:6px;margin-top:8px;">
+<p><strong>Sube tu vídeo:</strong> Archivo sugerido: <code>02_frisbee_lanzamiento.mp4</code></p>
+<p>Enlace o ruta: ________________________</p>
+</div>
+
 ### 3. Jab en boxeo
 
 #### Fases del movimiento:
@@ -74,6 +84,11 @@
    - Retorno rápido a la guardia
    - Mantener la protección
    - Preparación para siguiente movimiento
+
+<div style="border:2px dashed #3b82f6;padding:10px;border-radius:6px;margin-top:8px;">
+<p><strong>Sube tu vídeo:</strong> Archivo sugerido: <code>03_jab_boxeo.mp4</code></p>
+<p>Enlace o ruta: ________________________</p>
+</div>
 
 ### 4. Ap Chagui (patada frontal) en taekwondo
 
@@ -98,6 +113,11 @@
    - Retorno a posición de combate
    - Mantenimiento del balance
 
+<div style="border:2px dashed #3b82f6;padding:10px;border-radius:6px;margin-top:8px;">
+<p><strong>Sube tu vídeo:</strong> Archivo sugerido: <code>04_ap_chagui.mp4</code></p>
+<p>Enlace o ruta: ________________________</p>
+</div>
+
 ### 5. Gesto técnico adicional: Sentadilla con barra
 
 #### Fases del movimiento:
@@ -121,16 +141,22 @@
    - Extensión coordinada
    - Mantener la postura
 
+<div style="border:2px dashed #3b82f6;padding:10px;border-radius:6px;margin-top:8px;">
+<p><strong>Sube tu vídeo:</strong> Archivo sugerido: <code>05_sentadilla_barra.mp4</code></p>
+<p>Enlace o ruta: ________________________</p>
+</div>
+
 ## Recomendaciones:
 
 * Se deben referenciar las fuentes de donde se obtenga la información utilizada en la presentación.
 
 ## Referencias:
 
-1. Biomecánica Deportiva - Dr. Juan Carlos Morante (2020)
-2. Manual de Técnicas de Voleibol - Federación Internacional de Voleibol (2023)
-3. Ultimate Frisbee: Fundamentos y Técnicas - USA Ultimate (2024)
-4. Boxeo Científico - Federación Mundial de Boxeo (2023)
-5. Manual Oficial de Taekwondo - World Taekwondo Federation (2025)
+1. Biomecánica (general) — https://es.wikipedia.org/wiki/Biomec%C3%A1nica
+2. Voleibol — https://es.wikipedia.org/wiki/Voleibol
+3. Ultimate (frisbee) — https://es.wikipedia.org/wiki/Ultimate_(deporte)
+4. Boxeo — https://es.wikipedia.org/wiki/Boxeo
+5. Taekwondo — https://es.wikipedia.org/wiki/Taekwondo
+6. Sentadilla (técnica de fuerza) — https://es.wikipedia.org/wiki/Sentadilla
 
 [Nota: Aquí se insertarán los videos de ejecución y el análisis específico de cada ejecución técnica una vez realizados]

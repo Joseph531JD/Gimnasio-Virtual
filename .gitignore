@@ -8,3 +8,6 @@ Thumbs.db
 
 # Node modules (if later used)
 node_modules/
+
+# Local Netlify folder
+.netlify
