@@ -52,8 +52,7 @@
    3. Trabajo de core y estabilidad unipodal.
 
    <div style="border:2px dashed #3b82f6;padding:10px;border-radius:6px;margin-top:8px;">
-   <p><strong>Sube tu vídeo:</strong> Archivo sugerido: <code>01_saque_salto.mp4</code></p>
-   <p>Enlace o ruta: ________________________</p>
+   <p><strong>Video</strong></p>
    </div>
 
 ### 2. Lanzamiento del frisbee en ultimate
@@ -103,8 +102,7 @@
    3. Trabajo de rotación de tronco con control.
 
    <div style="border:2px dashed #3b82f6;padding:10px;border-radius:6px;margin-top:8px;">
-   <p><strong>Sube tu vídeo:</strong> Archivo sugerido: <code>02_frisbee_lanzamiento.mp4</code></p>
-   <p>Enlace o ruta: ________________________</p>
+   <p><strong>Video</strong></p>
    </div>
 
 ### 3. Jab en boxeo
@@ -151,8 +149,7 @@
    2. Paos para rapidez de mano (series cortas, 5x10).
 
    <div style="border:2px dashed #3b82f6;padding:10px;border-radius:6px;margin-top:8px;">
-   <p><strong>Sube tu vídeo:</strong> Archivo sugerido: <code>03_jab_boxeo.mp4</code></p>
-   <p>Enlace o ruta: ________________________</p>
+   <p><strong>Video</strong></p>
    </div>
 
 ### 4. Ap Chagui (patada frontal) en taekwondo
@@ -200,8 +197,7 @@
    2. Patada controlada sobre almohadilla (4x6).
 
    <div style="border:2px dashed #3b82f6;padding:10px;border-radius:6px;margin-top:8px;">
-   <p><strong>Sube tu vídeo:</strong> Archivo sugerido: <code>04_ap_chagui.mp4</code></p>
-   <p>Enlace o ruta: ________________________</p>
+   <p><strong>Video</strong></p>
    </div>
 
 ### 5. Gesto técnico adicional: Sentadilla con barra
@@ -250,8 +246,7 @@
    3. Progresiones con carga controlada (5x5 submáximo).
 
    <div style="border:2px dashed #3b82f6;padding:10px;border-radius:6px;margin-top:8px;">
-   <p><strong>Sube tu vídeo:</strong> Archivo sugerido: <code>05_sentadilla_barra.mp4</code></p>
-   <p>Enlace o ruta: ________________________</p>
+   <p><strong>Video</strong></p>
    </div>
 
 ## Recomendaciones:
