@@ -1,0 +1,10 @@
+# Ignore video files (optional)
+*.mp4
+*.mov
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Node modules (if later used)
+node_modules/
