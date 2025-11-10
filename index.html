@@ -21,7 +21,7 @@
       <a class="nav-btn" href="#frisbee-lanzamiento">Frisbee</a>
       <a class="nav-btn" href="#jab-boxeo">Jab (Boxeo)</a>
       <a class="nav-btn" href="#ap-chagui">Ap Chagui</a>
-      <a class="nav-btn" href="#sentadilla-barra">Sentadilla</a>
+      <a class="nav-btn" href="#sentadilla-peso">Sentadilla</a>
     </nav>
     <main class="container">
       <!-- Objetivo y contenidos obligatorios eliminados por petición del usuario -->
@@ -78,7 +78,7 @@
             <li>Ejercicios de core y estabilidad unipodal (plancha lateral, equilibrio sobre bosu).</li>
           </ol>
 
-          <div class="video-placeholder">
+          <div class="video-placeholder" data-video="">
             <p class="vp-title">Video</p>
           </div>
         </article>
@@ -129,7 +129,7 @@
             <li>Ejercicios de rotación de tronco con medición de velocidad (kettlebell swings ligeros).</li>
           </ol>
 
-          <div class="video-placeholder">
+          <div class="video-placeholder" data-video="">
             <p class="vp-title">Video</p>
           </div>
         </article>
@@ -180,7 +180,7 @@
             <li>Trabajo de puntería con objetivo pequeño y feedback visual.</li>
           </ol>
 
-          <div class="video-placeholder">
+          <div class="video-placeholder" data-video="">
             <p class="vp-title">Video</p>
           </div>
         </article>
@@ -230,14 +230,14 @@
             <li>Trabajo de equilibrio en un pie (1 min por pierna).</li>
           </ol>
 
-          <div class="video-placeholder">
+          <div class="video-placeholder" data-video="">
             <p class="vp-title">Video</p>
           </div>
         </article>
 
-        <article id="sentadilla-barra">
+        <article id="sentadilla-peso">
           <div class="page-heading-wrap">
-            <h3 class="page-heading">5. Sentadilla con barra (gesto adicional)</h3>
+            <h3 class="page-heading">5. Sentadilla con peso (gesto adicional)</h3>
           </div>
           <div class="sub-heading-wrap">
             <h4 class="sub-heading">Fases</h4>
@@ -251,7 +251,7 @@
           <div class="sub-heading-wrap">
             <h5 class="sub-heading">Análisis ampliado</h5>
           </div>
-          <p>La sentadilla con barra es un gesto fundamental de fuerza que requiere coordinación intermuscular para mantener la espalda neutra y transferir fuerza desde las caderas y piernas. La técnica correcta preserva la salud lumbar y maximiza fuerza.</p>
+          <p>La sentadilla con peso es un gesto fundamental de fuerza que requiere coordinación intermuscular para mantener la espalda neutra y transferir fuerza desde las caderas y piernas. La técnica correcta preserva la salud lumbar y maximiza fuerza.</p>
 
           <div class="sub-heading-wrap">
             <h5 class="sub-heading">Músculos principales</h5>
@@ -280,7 +280,7 @@
             <li>Progresiones a sentadilla con barra con cargas submáximas y foco en control (5x5 ligero).</li>
           </ol>
 
-          <div class="video-placeholder">
+          <div class="video-placeholder" data-video="">
             <p class="vp-title">Video</p>
           </div>
         </article>
@@ -307,5 +307,47 @@
         <p class="muted">Inserte enlaces o rutas a los vídeos y las plantillas de análisis completadas.</p>
       </footer>
     </main>
+    <script>
+      // Small embed helper: if you paste a video URL into data-video on the .video-placeholder,
+      // this script will replace the placeholder with an iframe (YouTube or generic) or a <video> tag for MP4.
+      document.addEventListener('DOMContentLoaded', function(){
+        document.querySelectorAll('.video-placeholder').forEach(function(el){
+          var src = el.getAttribute('data-video');
+          if(!src) return; // leave placeholder as-is when empty
+          el.innerHTML = '';
+          try{
+            if(/youtu\.be|youtube\.com/.test(src)){
+              // try to extract YouTube ID
+              var idMatch = src.match(/(?:v=|\/)([0-9A-Za-z_-]{11})/);
+              var id = idMatch ? idMatch[1] : (src.match(/youtu\.be\/([0-9A-Za-z_-]{11})/)||[])[1];
+              var iframe = document.createElement('iframe');
+              iframe.width = '100%';
+              iframe.height = '360';
+              iframe.src = 'https://www.youtube.com/embed/' + id;
+              iframe.frameBorder = 0;
+              iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+              iframe.allowFullscreen = true;
+              el.appendChild(iframe);
+            } else if(/\.(mp4|webm|ogg)(\?.*)?$/i.test(src)){
+              var video = document.createElement('video');
+              video.controls = true;
+              video.src = src;
+              video.style.width = '100%';
+              el.appendChild(video);
+            } else {
+              var iframe2 = document.createElement('iframe');
+              iframe2.width = '100%';
+              iframe2.height = '360';
+              iframe2.src = src;
+              iframe2.frameBorder = 0;
+              el.appendChild(iframe2);
+            }
+          }catch(e){
+            // on error leave original placeholder text
+            console.error('Video embed failed', e);
+          }
+        });
+      });
+    </script>
   </body>
 </html>
